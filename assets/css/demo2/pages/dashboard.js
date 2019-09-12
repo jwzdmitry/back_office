@@ -189,9 +189,9 @@ var KTDashboard = function() {
                     ]
                 }],
                 labels: [
-                    'Angular',
-                    'CSS',
-                    'HTML'
+                    'Russia',
+                    'USA',
+                    'Ukraine'
                 ]
             },
             options: {
@@ -651,17 +651,17 @@ var KTDashboard = function() {
         Morris.Donut({
             element: 'kt_chart_revenue_change',
             data: [{
-                    label: "New York",
+                    label: "Google",
                     value: 10
                 },
                 {
-                    label: "London",
+                    label: "Facebook",
                     value: 7
                 },
                 {
-                    label: "Paris",
+                    label: "Affiliate",
                     value: 20
-                }
+                },
             ],
             colors: [
                 KTApp.getStateColor('success'),

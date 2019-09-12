@@ -107,13 +107,13 @@ var KTDashboard = function() {
             labels: ["Label 1", "Label 2", "Label 3", "Label 4", "Label 5", "Label 6", "Label 7", "Label 8", "Label 9", "Label 10", "Label 11", "Label 12", "Label 13", "Label 14", "Label 15", "Label 16"],
             datasets: [{
                 //label: 'Dataset 1',
-                backgroundColor: KTApp.getStateColor('success'),
+                backgroundColor: '#f00',
                 data: [
                     15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
                 ]
             }, {
                 //label: 'Dataset 2',
-                backgroundColor: '#f3f3fb',
+                backgroundColor: KTApp.getStateColor('success'),
                 data: [
                     15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
                 ]
@@ -189,9 +189,9 @@ var KTDashboard = function() {
                     ]
                 }],
                 labels: [
-                    'Angular',
-                    'CSS',
-                    'HTML'
+                    'Russia',
+                    'Ukraine',
+                    'USA'
                 ]
             },
             options: {
@@ -651,15 +651,15 @@ var KTDashboard = function() {
         Morris.Donut({
             element: 'kt_chart_revenue_change',
             data: [{
-                    label: "New York",
+                    label: "Facebook",
                     value: 10
                 },
                 {
-                    label: "London",
+                    label: "Affiliate",
                     value: 7
                 },
                 {
-                    label: "Paris",
+                    label: "Google",
                     value: 20
                 }
             ],
