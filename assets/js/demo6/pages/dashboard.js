@@ -183,7 +183,7 @@ var KTDashboard = function() {
                         35, 30, 35
                     ],
                     backgroundColor: [
-                        KTApp.getStateColor('success'),
+                      KTApp.getStateColor('success'),
                         KTApp.getStateColor('danger'),
                         KTApp.getStateColor('brand')
                     ]
@@ -219,7 +219,7 @@ var KTDashboard = function() {
                     xPadding: 10, 
                     caretPadding: 0,
                     displayColors: false,
-                    backgroundColor: KTApp.getStateColor('brand'),
+                    backgroundColor: KTApp.getStateColor('#ff0033'),
                     titleFontColor: '#ffffff', 
                     cornerRadius: 4,
                     footerSpacing: 0,
